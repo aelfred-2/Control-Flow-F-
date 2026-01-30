@@ -1,0 +1,97 @@
+#Decision Making: if,elif,else
+#Exercise 1:Check age
+age = 15
+if age<13:
+   print("Child")
+elif 13 <= age <=19:
+    print("Teenager")
+else:
+    print("Adult")
+
+#Exercise 2:Even or odd
+number = 7
+if number %2 == 0:
+    print("even")
+else:
+    print("odd")
+
+#1.Loops
+#Exercise 1:Print Numbers
+for number in range(1,11):
+    print(number)
+
+#Exercise 2:Loop through a List
+fruits = ["apple","banana","mango","orange"]
+for fruit in fruits:
+    print(fruit)
+
+
+#3.While Loops
+#Exercise 5: Counting with while
+count = 1
+while count <=5:
+    print(count)
+    count +=1
+
+#Exercise 6: Password check
+
+
+#4.Loop Statements
+#Exercise 7: Using Break
+for number in range (1,11):
+    if number == 5:
+      break
+    print(number)
+
+#Exercise 8 : Using Continue
+for number in range(1,11):
+    if number == 3:
+        continue
+    print(number)
+
+
+#The Pass Statement
+#Exercise 9:Placeholder Logic 
+number = 10
+if number > 10:
+    pass
+else:
+    print("Number_is_zero_or_negative")
+
+
+#6.Combining Control Flow
+for number in range(1,21):
+    if number == 15:
+        break
+
+    if number % 2 == 0:
+        print(number,"Even")
+    else:
+        print(number,"Odd")
+
+
+#Bonus Challenge
+for number in range(1,31):
+
+    if number % 3 == 0 and number %5 ==0:
+        print("FizzBuzz")
+
+    elif number % 3 == 0:
+        print("Fizz")
+        
+    elif number % 5 == 0:
+        print("Buzz")
+
+    else:
+        print(number)
+
+
+
+
+
+
+
+
+
+
+
